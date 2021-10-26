@@ -301,6 +301,10 @@
   color: #ffffff;
   background: #cd6255;
 }
+.tag-fish {
+  color: #ffffff;
+  background: #cd6255;
+}
 .tag-children {
   background: #fffdbf;
 }
@@ -560,5 +564,33 @@
   }
   .footer-navigation {
     margin-right: -40px;
+  }
+}
+@media (max-width: 476px) {
+  .logo {
+    max-width: 40%;
+  }
+  .logo-image {
+    max-width: 100%;
+  }
+  .slide-title {
+    font-size: 30px;
+  }
+  .slide-text {
+    font-size: 14px;
+  }
+  .button-primary {
+    padding: 11px 30px;
+  }
+  .slider-buttons {
+    right: 16px;
+    bottom: 20px;
+  }
+  .section-title {
+    line-height: 30px;
+  }
+  .footer-link {
+    font-size: 12px;
+    line-height: 20px;
   }
 }
